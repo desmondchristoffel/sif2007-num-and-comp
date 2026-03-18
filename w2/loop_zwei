@@ -1,7 +1,0 @@
-i = 1 #initialisation
-n = 10 #number of points
- 
-#calculate sum of i
-for i in range(n): 
- i = i + 1
- print('i as output ',i)
