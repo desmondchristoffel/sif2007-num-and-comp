@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib.pyplot as plt 
+
+#generate list of data
+gen_arange = np.arange(1,11,0.1)
+gen_linspace = np.linspace(0,10,10)
+print("arange_example= ", gen_arange)
+print("linspace_example= ", gen_linspace)
+
+#solving 2x2 matrix
+matrix_1 = np.array([[1,2],[3,4]])
+matrix_2 = np.array([[1,1],[1,1]])
+matrix_3 = matrix_1 + matrix_2
+print(matrix_3)

@@ -1,0 +1,21 @@
+import numpy as np
+def my_function():
+ print("Creating text from function")
+ 
+my_function()
+ 
+#to calculate polynomial, f(x)=x^3+2x^2+5
+def f(x): 
+ return x**3+2*x**2+5
+ 
+#sine function
+def g(x): 
+ return np.sin(x)
+ 
+def h(x,y):
+ return x**3+2*x*y**2+5
+ 
+#input
+x=5
+y=1
+print(x,f(x),g(x),h(x,y))

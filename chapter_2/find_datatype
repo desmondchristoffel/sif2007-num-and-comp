@@ -1,0 +1,15 @@
+a = 5
+b = 10.0
+c = 2j
+d = "SIF2005"
+e = [1,2,3]
+f = (4,5,6)
+g = True
+  
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))

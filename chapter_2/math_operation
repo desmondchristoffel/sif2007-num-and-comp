@@ -1,0 +1,19 @@
+
+
+h = 5 
+k = 10
+print("addition")
+print(h+k)
+print("subtraction")
+print(h-k)
+print("division")
+print(h/k)
+print("multiplication")
+print(h*k)
+print("division(integer)")
+print(h//k)
+print("modulus")
+print(h%k)
+print("exponential")
+print(h**k)
+
