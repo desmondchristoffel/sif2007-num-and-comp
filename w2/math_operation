@@ -1,0 +1,80 @@
+print("week 2")
+import numpy as np
+import matplotlib.pyplot as plt 
+
+def find_datatype():
+ a = 5
+ b = 10.0
+ c = 2j
+ d = "SIF2005"
+ e = [1,2,3]
+ f = (4,5,6)
+ g = True
+  
+ print(type(a))
+ print(type(b))
+ print(type(c))
+ print(type(d))
+ print(type(e))
+ print(type(f))
+ print(type(g))
+
+def math_operations(h,k):
+ print("addition")
+ print(h+k)
+ print("subtraction")
+ print(h-k)
+ print("division")
+ print(h/k)
+ print("multiplication")
+ print(h*k)
+ print("division(integer)")
+ print(h//k)
+ print("modulus")
+ print(h%k)
+ print("exponential")
+ print(h**k)
+
+#generate list of data
+def arange_and_linspace():
+ gen_arange = np.arange(1,11,0.1)
+ gen_linspace = np.linspace(0,10,10)
+ print("arange(1,11,0.1)= ", gen_arange)
+ print("linspace(0,10,10)= ", gen_linspace)
+
+#plotting a graph
+def graph_plotting():
+ x = np.arange(1,11,0.1)
+ y = np.sin(x)
+ z = np.cos(x)
+ plt.plot(x,y,label='sin(x)')
+ plt.plot(x,z,label='cos(x)')
+ plt.show()
+
+#solving 2x2 matrix
+def matrix_addition():
+ matrix_1 = np.array([[1,2],[3,4]])
+ matrix_2 = np.array([[1,1],[1,1]])
+ matrix_3 = matrix_1 + matrix_2
+ print(matrix_3)
+
+def list_notes():
+ print(
+  "find_datatype()",
+  "math_operations(h,k)",
+  "arange_and_linspace()",
+  "graph_plotting()"
+  "matrix_addition()"
+ )
+
+a = -1.0
+b = 2.0 
+c = 5.0 
+n = a*b
+ 
+if n>0: 
+ print('The value of n is positive')
+elif n<0: 
+ print('The value of n is negative')
+else: 
+ print('The value of n is zero')
